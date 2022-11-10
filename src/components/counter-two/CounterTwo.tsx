@@ -1,7 +1,7 @@
-import { CounterTwoProps } from "./CounterTwo.types";
+import { CounterTwoProps } from './CounterTwo.types'
 
 export default function CounterTwo(props: CounterTwoProps) {
-  const { count, handleIncrement, handleDecrement } = props;
+  const { count, handleIncrement, handleDecrement } = props
 
   return (
     <div>
@@ -18,5 +18,5 @@ export default function CounterTwo(props: CounterTwoProps) {
         </button>
       )}
     </div>
-  );
+  )
 }
